@@ -1,0 +1,18 @@
+{
+  "name": "inserttsdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "insertTsData.js",
+  "scripts": {
+    "start": "forever start --uid tsd1 --killSignal=SIGTERM -c 'nodemon --exitcrash --verbose' insertTsData.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DJR",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "dotenv": "^6.0.0",
+    "dotenv-expand": "^4.2.0",
+    "mongodb": "^3.1.1"
+  }
+}
